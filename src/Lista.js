@@ -3,12 +3,24 @@ import Post from './Post';
 
 class Lista extends React.Component { 
     state = {
-        posts:[
+        posts: [
             { id: 1, title: 'Aprendendo React' },
             { id: 2, title: 'A RocketSeat é massa!' },
             { id: 3, title: 'Ainda não sei outro título' }
         ],
     };
+
+    construtor(props){
+        super(props);
+        setTimeout(() => {
+            this.setState({
+                posts: [
+                    ...this.state.posts,
+                    { id: 4, title: 'state in React' }
+                ]
+            });
+        }, 2000);
+    }
     
     render() {
         return ( 
