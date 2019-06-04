@@ -1,6 +1,6 @@
 # state ReactJS
 
-## Atualização: 06 de junho de 2019 - 18:00
+## Atualização: 06 de junho de 2019
 ## Criação: 02 de junho de 2019
 ## Prática : @douglasabnovato
 
