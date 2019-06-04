@@ -23,9 +23,9 @@
 > Para facilitar esse processo, podemos utilizar a função setState em qualquer parte do componente e dessa forma repassamos apenas as variáveis que iremos atualizar no estado, deixando de lado qualquer outra informação que não iremos modificar e o React irá apenas copiar elas para o novo estado.
 
 :. De `React do zero: componentização, propriedades e estado`.<br/> 
-Por Rocketseat - https://blog.rocketseat.com.br/react-do-zero-componentizacao-propriedades-e-estado/
+Por Diego Fernandes - Rocketseat - https://blog.rocketseat.com.br/react-do-zero-componentizacao-propriedades-e-estado/
 :. De `React do zero: ciclo de vida, stateless components e arquitetura flux`.<br/> 
-Por Rocketseat - https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/
+Por Diego Fernandes - Rocketseat - https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/
 
-:. De `Iniciando no ReactJS | Diego Fernandes`.<br/>
-Por Rocketseat - https://www.youtube.com/watch?v=7A4UQGrFU9Q 
+:. De `Iniciando no ReactJS`.<br/>
+Por Diego Fernandes - Rocketseat - https://www.youtube.com/watch?v=7A4UQGrFU9Q 
