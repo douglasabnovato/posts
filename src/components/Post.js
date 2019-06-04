@@ -10,11 +10,11 @@ export default class Post extends React.Component {
             newCommentText: ''
         };
 
-        this.hundleSubmit = this.hundleSubmit.bind(this);
-        this.handleTextChange = this.hundleTextChange.bind(this);   
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleTextChange = this.handleTextChange.bind(this);   
     }
 
-    hundleSubmit(e){
+    handleSubmit(e) {
         this.setState({
             comments: [
                 ...this.state.comments,
@@ -27,7 +27,7 @@ export default class Post extends React.Component {
         e.preventDefault();
     }
     
-    hundleTextChange(e){
+    handleTextChange(e){
         this.setState({ newCommentText: e.target.value })
     }
     
@@ -36,14 +36,11 @@ export default class Post extends React.Component {
             <div>
                 <h1>{this.props.title}</h1>
                 <form onSubmit={this.handleSubmit}>
-                    <input 
-                        value={this.state.newCommentText}
-                        onChange={this.handleTextChange}
-                        />
-                    <button type="submit">Comentário</button>
+                    <input value={this.state.newCommentText} onChange={this.handleTextChange} />                       
+                    <button type="submit">Comentar</button>
                 </form>
                 { this.state.comments.map((comment, index) => {
-                    return <Comment key={index} text = {comment.text}/>
+                    return <Comment key={index} text={comment.text} />
                 })}
                 
             </div>
