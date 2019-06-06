@@ -114,13 +114,13 @@ export default class Container extends React.Component {
 
 #### Ecossistema React
 
-- [] React
-- [] JSX
-- [] ES2015
-- [] Webpack
-- [] Flux/Redux
-- [] axios/fetch
-- []Jest/Mocha 
+- [x] React
+- [x] JSX
+- [x] ES2015
+- [x] Webpack
+- [x] Flux/Redux
+- [x] axios/fetch
+- [x]Jest/Mocha 
 
 :. De `React do zero: componentização, propriedades e estado`.<br/> 
 Por Diego Fernandes - Rocketseat - https://blog.rocketseat.com.br/react-do-zero-componentizacao-propriedades-e-estado/
