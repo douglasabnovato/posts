@@ -46,5 +46,8 @@ Por Diego Fernandes - Rocketseat - https://blog.rocketseat.com.br/react-do-zero-
 :. De `React do zero: ciclo de vida, stateless components e arquitetura flux`.<br/> 
 Por Diego Fernandes - Rocketseat - https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/
 
+De `Um Guia para Iniciantes no React.js`.<br/>
+Por Thiago Reis - Rocketseat - https://medium.com/rocketseat/um-guia-para-iniciantes-no-react-js-80e1ac357649
+
 :. De `Iniciando no ReactJS`.<br/>
 Por Diego Fernandes - Rocketseat - https://www.youtube.com/watch?v=7A4UQGrFU9Q 
