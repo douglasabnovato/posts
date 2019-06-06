@@ -64,12 +64,49 @@ export default function Presentational() {
 - Já os componentes do tipo Container, além da apresentação dos dados, tem que lidar também com algum tipo de lógica, ou transformação de dados. Por isso necessitam de estado (stateful). 
 
 - Esses componentes não podem ser escritos como uma função, eles obrigatoriamente devem ser uma classe:
-[imagem de código]
+```js
+import React from 'react';
 
+export default class Container extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: 'World' };
+  }
+  
+  render() {
+    return (
+      <h1>Hello {this.state.name}</h1>
+    );
+  }
+}
+```
 - Os dois exemplos mostrados acima tem exatamente o mesmo resultado final. A única diferença é que o primeiro deles não usa o state do React, enquanto que o segundo usa.
 
 - Podemos ainda complicar um pouco mais o segundo exemplo, para demonstrar como é possível alterar o estado do seu componente React:
-[imagem de código]
+
+```js
+import React from 'react';
+
+export default class Container extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: 'World' };
+  }
+  
+  change(event) {
+    this.setState({ name: event.target.value });
+  }
+  
+  render() {
+    return (
+      <div>
+        <input value={this.state.name} onChange={(e) => this.change(e)} />
+        <p>Hello {this.state.name}!</p>
+      </div>
+    );
+  }
+}
+```
 
 - Em cada mudança que ocorrer no input (linha 16), um evento é disparado na função change. A função change por sua vez altera o estado do componente, usando a função setState, que é nativa do React.
 
