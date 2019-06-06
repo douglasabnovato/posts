@@ -120,7 +120,7 @@ export default class Container extends React.Component {
 - [x] Webpack
 - [x] Flux/Redux
 - [x] axios/fetch
-- [x]Jest/Mocha 
+- [x] Jest/Mocha 
 
 :. De `React do zero: componentização, propriedades e estado`.<br/> 
 Por Diego Fernandes - Rocketseat - https://blog.rocketseat.com.br/react-do-zero-componentizacao-propriedades-e-estado/
