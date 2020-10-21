@@ -2,6 +2,7 @@ import React from 'react';
 import Comment from './Comment';
 
 export default class Post extends React.Component {
+
     constructor(props){
         super(props);
 
@@ -34,10 +35,10 @@ export default class Post extends React.Component {
     render(){
         return (
             <div>
-                <h1>{this.props.title}</h1>
+                <h3>{this.props.title}</h3>
                 <form onSubmit={this.handleSubmit}>
                     <input value={this.state.newCommentText} onChange={this.handleTextChange} />                       
-                    <button type="submit">Comentar</button>
+                    <button type="submit">Responder</button>
                 </form>
                 { this.state.comments.map((comment, index) => {
                     return <Comment key={index} text={comment.text} />

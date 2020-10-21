@@ -7,9 +7,9 @@
 
 ![Aplicação](/images/a-aplicacao-terminada.jpg)
 
-### Overview
+- [ ] Estrutura com elementos
 
-Uma aplicação para exibir um breve sobre cada elemento e quando clicado, apresentar mais detalhes.
+### Overview
 
 - **[Getting started](https://unform.dev/)**
 - **[Documentation](https://unform.dev/guides/basic-form)**
