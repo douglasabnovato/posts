@@ -20,9 +20,7 @@
 
 - HTML/Javascript: estrutura e efeitos
 - CSS: posicionamento, dimensionamento e muito mais.
-- ReactJS: os fundamentos, como state, props, components, ciclo de vida.
-
-#### Anotações   
+- ReactJS: os fundamentos, como state, props, components, ciclo de vida.   
 
 ---
 

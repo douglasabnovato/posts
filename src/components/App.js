@@ -1,6 +1,8 @@
 import React from 'react';
 import Post from './Post';
 
+import '../styles/appStyles.css';
+
 export default class App extends React.Component {
   render(){
     return (

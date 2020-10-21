@@ -1,6 +1,8 @@
 import React from 'react';
 import Comment from './Comment';
 
+import '../styles/postStyles.css';
+
 export default class Post extends React.Component {
 
     constructor(props){
