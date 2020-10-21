@@ -1,3 +1,12 @@
-h3{
-    color: red;
-}  
+.input-button {   
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+    padding: 25px;
+}
+
+.input-button form input { 
+    margin-right: 4px;
+} 

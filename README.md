@@ -1,11 +1,11 @@
 <h3 align="center">
-  Um cardápio em ReactJS ! 🚀
+  Posts em ReactJS ! 🚀
 </h3>
 <br>
 
 ### Aplicação 
 
-![Aplicação](/images/a-aplicacao-terminada.jpg)
+![Aplicação](/images/post-comment.jpg)
 
 - [x] Estrutura com elementos
 - [x] Estilização com elementos

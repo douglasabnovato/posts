@@ -14,7 +14,7 @@
 }
 
 .container h2{
-    color: black; 
+    color: 5px 5px 5px rgba(228, 19, 11, 0.842);
 
     display: flex;
     justify-content: center;  
@@ -25,24 +25,12 @@
 .questions {
     display: flex;
     justify-content: center;  
-
-    
 }
 
 .post {
     margin: 8px;
     padding: 5px;
-
     border-radius: 4px;
     width: 30%; 
     height: 40px;
-}
-
-.input-button {   
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-    color: #333;
-    padding: 25px;
-}
+} 
