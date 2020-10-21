@@ -21,7 +21,7 @@ export default class App extends React.Component {
             <SecondPost title = "Qual a linguagem de programação quer ser ainda melhor ?"/>
           </div>
           <div className="post">
-            <ThirdPost title = "Qual a sua maior dúvida ?"/>
+            <ThirdPost title = "Qual a sua melhor dúvida ?"/>
           </div>
 
         </div>

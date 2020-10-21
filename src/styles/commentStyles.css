@@ -1,3 +1,13 @@
-h4{
+.comment h4{
     color: yellow;
+}
+
+.comment {   
+    background-color: rgba(255, 255, 255, 0.507);
+    border: 1px solid rgba(204, 204, 204, 0.753);
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+    padding: 25px;
+    margin-top: 9px;
 }

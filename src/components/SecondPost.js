@@ -37,17 +37,22 @@ export default class SecondPost extends React.Component {
     render(){
         return (
             <div>
-
-                <h3>{ this.props.title }</h3>
-
-                <form onSubmit={this.handleSubmit}>
-                    <input value={this.state.newCommentText} onChange={this.handleTextChange} />                       
-                    <button type="submit">Responder</button>
-                </form>
                 
-                { this.state.comments.map((comment, index) => {
-                    return <SecondComment key={index} text={comment.text} />
-                })}
+                <div className="input-button"> 
+                    <h3>{ this.props.title }</h3>
+                    <form onSubmit={this.handleSubmit}>
+                        <input 
+                            value={this.state.newCommentText} 
+                            onChange={this.handleTextChange} 
+                        />                       
+                        <button type="submit">Responder</button>
+                    </form>
+                </div>
+                <div className="comment-area">
+                    { this.state.comments.map((comment, index) => {
+                        return <SecondComment key={index} text={comment.text} />
+                    })}
+                </div>
                 
             </div>
         )  
