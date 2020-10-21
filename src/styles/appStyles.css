@@ -1,6 +1,13 @@
 .container{ 
-    margin-top: 100px;
-    padding: 5px;
+    
+    margin: 30px;
+    margin-top: 100px; 
+
+    padding: 30px;
+ 
+    display: block;
+    justify-content: center;  
+    border: solid;
     
 }
 
@@ -13,13 +20,15 @@
 
 .questions {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;  
+    border: solid;
 }
 
 .post {
     margin: 8px;
-    padding: 10px;
+    padding: 25px;
 
     border-radius: 4px;
+    width: 30%;
+    border: solid;
 }
