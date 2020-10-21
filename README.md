@@ -10,13 +10,6 @@
 - [x] Estrutura com elementos
 - [x] Estilização com elementos
 
-### Overview
-
-- **[Getting started](https://unform.dev/)**
-- **[Documentation](https://unform.dev/guides/basic-form)**
-- **[Why Unform?](https://unform.dev/why-unform)**
-- **[FAQ](https://unform.dev/faq)**
-
 #### Tecnologias
 
 - HTML/Javascript: estrutura e efeitos

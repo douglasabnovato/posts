@@ -15,13 +15,13 @@ export default class App extends React.Component {
         <div class="questions">
 
           <div className="post">
-            <FirstPost title = "Qual o seu nome completo ?"/>
+            <FirstPost title = "Qual o seu nome completo ou apelido ?"/>
           </div>
           <div className="post">
-            <SecondPost title = "Qual a linguagem de programação quer ser ainda melhor ?"/>
+            <SecondPost title = "Qual a linguagem de programação que desenvolve ?"/>
           </div>
           <div className="post">
-            <ThirdPost title = "Qual a sua melhor dúvida ?"/>
+            <ThirdPost title = "Qual a sua melhor dúvida para ser ainda melhor ?"/>
           </div>
 
         </div>
