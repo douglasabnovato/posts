@@ -7,7 +7,8 @@
 
 ![Aplicação](/images/a-aplicacao-terminada.jpg)
 
-- [ ] Estrutura com elementos
+- [x] Estrutura com elementos
+- [x] Estilização com elementos
 
 ### Overview
 

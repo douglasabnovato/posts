@@ -2,10 +2,10 @@ import React from 'react';
 
 import '../styles/commentStyles.css';
 
-export default class Comment extends React.Component {
+export default class ThirdComment extends React.Component {
     render(){
         return(
-            <h4>{this.props.text}</h4>
+            <h4>{ this.props.text }</h4>
         )
     }
 }

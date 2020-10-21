@@ -1,9 +1,9 @@
 import React from 'react';
-import Comment from './Comment';
+import SecondComment from './SecondComment';
 
 import '../styles/postStyles.css';
 
-export default class Post extends React.Component {
+export default class SecondPost extends React.Component {
 
     constructor(props){
         super(props);
@@ -37,13 +37,16 @@ export default class Post extends React.Component {
     render(){
         return (
             <div>
-                <h3>{this.props.title}</h3>
+
+                <h3>{ this.props.title }</h3>
+
                 <form onSubmit={this.handleSubmit}>
                     <input value={this.state.newCommentText} onChange={this.handleTextChange} />                       
                     <button type="submit">Responder</button>
                 </form>
+                
                 { this.state.comments.map((comment, index) => {
-                    return <Comment key={index} text={comment.text} />
+                    return <SecondComment key={index} text={comment.text} />
                 })}
                 
             </div>
