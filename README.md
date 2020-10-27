@@ -7,6 +7,8 @@
 
 ![Aplicação](/images/post-comment.jpg)
 
+- Servidor de Hospedagem: Netlify
+
 - [x] Estrutura com elementos
 - [x] Estilização com elementos
 
